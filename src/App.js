@@ -10,14 +10,14 @@ const App = () => {
 
       <div style={styles.counterBox}>
 
-        <div style={styles.btnBox} onClick={()=> fnIncreaseCounter()} >
-          <FaPlus style={styles.btn} />
+        <div style={styles.btnBox} onClick={()=> fnDecreaseCounter()} >
+          <FaMinus style={styles.btn}/>
         </div>
 
         <h1 style={styles.counterTxt} >{counter}</h1>
 
-        <div style={styles.btnBox} onClick={()=> fnDecreaseCounter()} >
-          <FaMinus style={styles.btn}/>
+        <div style={styles.btnBox} onClick={()=> fnIncreaseCounter()} >
+          <FaPlus style={styles.btn} />
         </div>
 
       </div>
